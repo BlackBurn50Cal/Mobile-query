@@ -38,7 +38,7 @@
         color: white;
         width: 45%;
         opacity: 1;
-        animation: fadeInAnimation ease 1.5s;
+        animation: fadeInAnimation ease-in 2s;
         margin-left: 100px;
     }
 
@@ -199,7 +199,7 @@
 
 .btn-6 {
     box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
-    animation: fadeInAnimationDelay2 ease 2.4s;
+    animation: fadeInAnimationDelay2 ease-in 2.4s;
 }
 
 
@@ -237,7 +237,7 @@
 
 .btn-5 {
     box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
-    animation: fadeInAnimationDelay1 ease 2.9s;
+    animation: fadeInAnimationDelay1 ease-in 2.9s;
 }
 
 .btn-4::before {
@@ -274,7 +274,7 @@
 
 .btn-4 {
     box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
-    animation: fadeInAnimationDelay ease 1.9s;
+    animation: fadeInAnimationDelay ease-in 1.9s;
 }
 /*button*/
 @keyframes fadeInAnimationDelay {
@@ -367,9 +367,6 @@
     .subhead h1, .subhead h2 {
         margin-left: 0;
         width: 80%;
-    }
-    .subhead h2 {
-        border: 2px solid green;
     }
     .container {
         margin-top: -100px;
