@@ -359,7 +359,35 @@
             color: #101820FF;
         }
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
+    .container {
+        margin: 0;
+        width: 100%;
+    }
+    .subhead h1 {
+        font-size: 28px;
+    }
+    .subhead h2 {
+        font-size: 20px;
+    }
+    .subhead h1, .subhead h2 {
+        margin-left: 0;
+        width: 80%;
+    }
+    .container {
+        margin-top: -100px;
+    }
+    .container button {
+        width: 100%;
+        margin: 20px;
+    }
+    .nub button {
+        margin-bottom: 40px;
+    }
+    .log img {
+        visibility: hidden;
+    }
+}@media (max-width: 1000px) {
     .container {
         margin: 0;
         width: 100%;
